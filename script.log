@@ -1,0 +1,73 @@
+Database connection closed.
+Traceback (most recent call last):
+  File "/home/abhi/Sakila Project/main.py", line 7, in <module>
+    createCSV(queryResult)
+  File "/home/abhi/Sakila Project/components/createCSV.py", line 13, in createCSV
+    rentals_df.to_csv(csv_filename, index=False)
+  File "/home/abhi/Sakila Project/venv/lib/python3.10/site-packages/pandas/core/generic.py", line 3772, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/home/abhi/Sakila Project/venv/lib/python3.10/site-packages/pandas/io/formats/format.py", line 1186, in to_csv
+    csv_formatter.save()
+  File "/home/abhi/Sakila Project/venv/lib/python3.10/site-packages/pandas/io/formats/csvs.py", line 240, in save
+    with get_handle(
+  File "/home/abhi/Sakila Project/venv/lib/python3.10/site-packages/pandas/io/common.py", line 737, in get_handle
+    check_parent_directory(str(handle))
+  File "/home/abhi/Sakila Project/venv/lib/python3.10/site-packages/pandas/io/common.py", line 600, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'CSV'
+Database connection closed.
+Traceback (most recent call last):
+  File "/home/abhi/Sakila Project/main.py", line 7, in <module>
+    createCSV(queryResult)
+  File "/home/abhi/Sakila Project/components/createCSV.py", line 13, in createCSV
+    rentals_df.to_csv(csv_filename, index=False)
+  File "/home/abhi/Sakila Project/venv/lib/python3.10/site-packages/pandas/core/generic.py", line 3772, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/home/abhi/Sakila Project/venv/lib/python3.10/site-packages/pandas/io/formats/format.py", line 1186, in to_csv
+    csv_formatter.save()
+  File "/home/abhi/Sakila Project/venv/lib/python3.10/site-packages/pandas/io/formats/csvs.py", line 240, in save
+    with get_handle(
+  File "/home/abhi/Sakila Project/venv/lib/python3.10/site-packages/pandas/io/common.py", line 737, in get_handle
+    check_parent_directory(str(handle))
+  File "/home/abhi/Sakila Project/venv/lib/python3.10/site-packages/pandas/io/common.py", line 600, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'CSV'
+Database connection closed.
+CSV file '/home/abhi/Sakila Project/CSV/new_rentals.csv' created successfully.
+Traceback (most recent call last):
+  File "/home/abhi/Sakila Project/main.py", line 8, in <module>
+    sendMail()
+  File "/home/abhi/Sakila Project/components/sendMail.py", line 31, in sendMail
+    with open(path, 'rb') as attachment:
+FileNotFoundError: [Errno 2] No such file or directory: 'CSV/new_rentals.csv'
+Database connection closed.
+CSV file '/home/abhi/Sakila Project/CSV/new_rentals.csv' created successfully.
+Traceback (most recent call last):
+  File "/home/abhi/Sakila Project/main.py", line 8, in <module>
+    sendMail()
+  File "/home/abhi/Sakila Project/components/sendMail.py", line 31, in sendMail
+    with open(path, 'rb') as attachment:
+FileNotFoundError: [Errno 2] No such file or directory: 'CSV/new_rentals.csv'
+Database connection closed.
+CSV file '/home/abhi/Sakila Project/CSV/new_rentals.csv' created successfully.
+Traceback (most recent call last):
+  File "/home/abhi/Sakila Project/main.py", line 8, in <module>
+    sendMail()
+  File "/home/abhi/Sakila Project/components/sendMail.py", line 31, in sendMail
+    with open(path, 'rb') as attachment:
+NameError: name 'path' is not defined
+Database connection closed.
+CSV file '/home/abhi/Sakila Project/CSV/new_rentals.csv' created successfully.
+Email sent successfully.
+Database connection closed.
+CSV file '/home/abhi/Sakila Project/CSV/new_rentals.csv' created successfully.
+Email sent successfully.
+Database connection closed.
+CSV file '/home/abhi/Sakila Project/CSV/new_rentals.csv' created successfully.
+Email sent successfully.
+Database connection closed.
+CSV file '/home/abhi/Sakila Project/CSV/new_rentals.csv' created successfully.
+Email sent successfully.
+Database connection closed.
+CSV file '/home/abhi/Sakila Project/CSV/new_rentals.csv' created successfully.
+Email sent successfully.
